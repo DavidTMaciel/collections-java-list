@@ -1,18 +1,36 @@
-## Getting Started
+# Lista de Tarefas em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um programa simples em Java que demonstra uma lista de tarefas usando uma classe `ListaTarefa` que contém uma lista de objetos `Tarefa`.
 
-## Folder Structure
+## Descrição
 
-The workspace contains two folders by default, where:
+O programa possui as seguintes funcionalidades:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Adicionar uma nova tarefa à lista.
+- Remover uma tarefa da lista com base na descrição.
+- Obter o número total de tarefas na lista.
+- Exibir as descrições de todas as tarefas na lista.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Uso
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Para executar o programa, você pode seguir as seguintes etapas:
 
-## Dependency Management
+1. Execute o programa com o comando:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+   ```shell
+   java ListaTarefa
+  
+2.Execute o programa com o comando:
+
+1. Inicializar uma lista vazia de tarefas.
+2. Adicionar algumas tarefas à lista.
+3. Exibir as descrições das tarefas na lista.
+4. Remover uma tarefa da lista.
+5. Exibir novamente o número total de tarefas na lista.
+
+## Exemplo de Saída
+```less
+O numero total de elementos na lista é: 0
+[Tarefa{descricao='Tarefa 1'}, Tarefa{descricao='Tarefa 1'}, Tarefa{descricao='Tarefa 2'}]
+O numero total de elementos na lista é: 3
+O numero total de elementos na lista é: 2
